@@ -3,7 +3,8 @@
     justify-content: space-between;
     position: relative;
     padding: 10px 20px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.9);
+    z-index: 1000;
 }
 
 .navbar>img{
@@ -27,7 +28,7 @@
 .dropdown-menu{
     position: absolute;
     right: 1.3rem;
-    top: 2.3rem;
+    top: 3.3rem;
 }
 
 .dropdown-menu>ul{
@@ -44,4 +45,8 @@
     border-top: 1px solid white;
     color: white;
     background-color: #6e9e76;
+}
+
+.dropdown-menu>ul>li>a:hover{
+    text-decoration: underline;
 }

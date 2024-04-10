@@ -1,0 +1,59 @@
+.reasons{
+    position: relative;
+    background-color: #f4f4f4;
+    padding: 60px 180px;
+}
+
+.reasons>p{
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.reasons>span{
+    font-size: 1.5rem;
+}
+
+.reason{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.reasonCard{
+    text-align: left;
+    background-color: #e8e8e8;
+    border-radius: 15px;
+    padding: 14px 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.reasonCard>h2{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #6e9e76;
+}
+
+.reasonCard>p{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.reason1,
+.reason2{
+    position: absolute;
+    width: 150px;
+}
+
+.reason1{
+    top: 0;
+    left: 0;
+}
+
+.reason2{
+    bottom: 0;
+    right: 0;
+}
