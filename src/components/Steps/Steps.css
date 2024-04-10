@@ -1,0 +1,63 @@
+.steps{
+    padding: 45px 20px 20px 20px;
+    background-color: #0558b5;
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.steps>p{
+    color: white;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.steps>span{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.step-holder{
+    display: flex;
+    margin: 20px 0;
+}
+
+.step{
+    border-radius: 10px;
+    /* align-items: center; */
+    text-align: left;
+    background-color: white;
+    
+    padding: 31px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.step>h2{
+    margin-top: 25px;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+
+.step>p{
+    font-size: 1.2rem;
+}
+
+.step1,
+.step2{
+    position: absolute;
+    width: 150px;
+}
+
+.step1{
+    top: 0;
+    left: 0;
+}
+
+.step2{
+    bottom: 0;
+    right: 0;
+}

@@ -34,8 +34,10 @@ const Reasons = () => {
   return (
     <div className="reasons">
       <img src={reasonImg1} className='reason1' alt="" />
+      
        <p>So many reasons to list with theTravelHunters,</p>
        <span>Here's a few:</span>
+
        <div className='reason'>
         {reasons.map((reason, index) =>{
           return(
