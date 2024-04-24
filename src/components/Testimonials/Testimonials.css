@@ -1,6 +1,6 @@
 .testimonials{
     background-color: #c8b3a4cc;
-    padding: 25px 150px 10px;
+    padding: 25px 0;
 }
 
 .testimonials>p{
@@ -18,25 +18,25 @@
     border-radius: 15px;
     background: #fff;
     box-shadow: 0 6px 8px #0000001a;
-    width: fit-content;
+    width: 75%;
     padding: 5px 40px;
     height: 400px;
     margin: 20px auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     max-height: 300px;
   }
 
 
   .testimonies>img{
     width: 230px;
-    height: 260px;
+    height: 250px;
     border-radius: 10px;
   }
 
   .testimony{
-    margin-left: 20px;
+    margin-left: 30px;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     border-radius: 50%;
     border: none;
     color: #6e9e76;
-    transition: 0.3s ease;
+    transition: 0.1s ease;
   }
 
   .arr-back{

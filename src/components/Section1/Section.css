@@ -4,9 +4,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    padding: 64px 0;
     /* margin-top: -110px; */
     /* position: relative; */
-    height: 100vh;
+    /* height: 110vh; */
 }
 
 .list{

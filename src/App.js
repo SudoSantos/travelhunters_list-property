@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import Reasons from './components/Reasons/Reasons';
 import Section from './components/Section1/Section';
@@ -13,6 +14,7 @@ function App() {
       <Reasons />
       <Steps />
       <Testimonials />
+      <Footer />
     </div>
   );
 }

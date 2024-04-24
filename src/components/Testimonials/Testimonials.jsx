@@ -9,6 +9,8 @@ const Testimonials = () => {
 
   const [selected, setSelected] = useState(0);
   const tLength = testimonialsData.length;
+
+
   return (
     <div className='testimonials'>
         <p>Testimonials</p>
@@ -27,7 +29,6 @@ const Testimonials = () => {
               <p className='name'>{testimonialsData[selected].name}</p>
               <p className='hotel-name'>{testimonialsData[selected].hotel}</p>
               <p className='review'>{testimonialsData[selected].review}</p>
-              
             </div>
             <FaCircleRight
             onClick={()=>{

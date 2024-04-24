@@ -11,17 +11,23 @@ const Navbar = () => {
   };
 
   return (
-    <div className='navbar'>
-      <img src={Logo} alt="travel-hunters-logo" />
-      <button onClick={toggleMenu}>List my property</button>
-      {isOpen && (
-        <div className="dropdown-menu">
-          <ul>
-            <li><a href="/">Sign Up</a></li>
-          </ul>
-        </div>
+    
+    <div>
+      <div className='navbar'>
+        <div className='nav'>
+          <img src={Logo} alt="travel-hunters-logo" />
+        <button onClick={toggleMenu}>List my property</button>
+        {isOpen && (
+          <div className="dropdown-menu">
+            <ul>
+              <li><a href="/">Sign Up</a></li>
+            </ul>
+          </div>
       )}
+        </div>
     </div>
+    </div>
+    
   );
 };
 
