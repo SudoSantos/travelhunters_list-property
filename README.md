@@ -20,7 +20,6 @@
 
 *Property list page* is a single cloned webpage adopted from a website [https://partner.thetravelhunters.com/], which includes certain interesting feature listed in the feature section of this Readme file. This project was done to practice and enhance my skill in the use of the programming languages used herein. Feel free to compare with the original and reach out to me on any required corrections.
 
-![Screenshot](app_screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🛠 Built With
@@ -103,9 +102,8 @@ If you like this project, please consider giving it a ⭐.
 
 ## 🙏 Acknowledgments 
 
+I would like to appreciate the developers of [thetravelhunters](https://www.thetravelhunters.com/) for permiting me to create a cloned section of their Travel Agency website.
 
-I would like to appreciate [Microverse](https://www.microverse.org/) for providing the resources and the platform for us to be a Professional full-stack developer.
-- [Ballhead App](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) - Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
